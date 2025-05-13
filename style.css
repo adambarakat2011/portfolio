@@ -1,0 +1,46 @@
+html{
+    background-image: url(./background.webp);
+    background-size: cover;
+background-repeat: no-repeat;
+box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(255, 255, 255, 0.445);
+    width: 90%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+h1,p{
+    text-align: center;
+    margin: 10px auto;
+}
+
+label{
+    display: block;
+}
+input,select,textarea{
+    display: block;
+    width: 95%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    resize: none;
+    margin: 10px;
+}
+
+input[type=checkbox],input[type=radio]{
+    display: inline;
+    width: auto;
+    margin: 10px;
+}
+.i{
+display: inline;
+}
+
+.thanks{
+    color: gold;
+
+    text-shadow: 3px 0.5px rgba(0, 0, 0, 0.255);
+}
